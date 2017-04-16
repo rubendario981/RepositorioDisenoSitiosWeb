@@ -76,6 +76,7 @@ section{
 	padding-top: 45px;
 	background-color: #005883;
 	font-size: 18px;
+	font-variant: verdana;
 }
 
 #logoRedes {
@@ -86,11 +87,11 @@ section{
 
 #menu {
 	width: 190px;
-	height: 520px;
+	height: 602px;
 	margin: 5px;
 	border: blue 4px solid;
 	padding-right: 20px;
-	padding-top: 140px;
+	padding-top: 60px;
 	float: left;
 	border-radius: 20px;
 	list-style-type: none;
@@ -178,17 +179,34 @@ section{
 
 #lista2{
 	list-style-image: none;
+	margin-left: 50px;
+	font-family: angsana new;
 }
 
 #listanumerada{
-	/*list-style: decimal-leading-zero;*/
 	list-style-image: none;
 }
 
-#datosestudiante{
-	font-size: 14px;
-	line-height: 14px;
+#datos{
+	text-align: left;
+	float: left;
+	width: 360px;
+	height: auto;
+	background-color: blue;
 }
+
+#imagenestudiante{
+	margin: 20px;
+	width: 140px;
+	height: 110px;
+}
+
+#widget{
+	margin-left: 0px;
+	margin-top: 25px;
+	float: left;
+}
+
 
 h1{
 	text-align: center;
@@ -198,11 +216,13 @@ h2{
 	margin-left: 20px;
 }
 
-h3{
+p{
 	text-align: justify;
 	margin: 10px 25px 10px 25px;
 	font-size: 15px;
 	font-family: angsana new;
+	list-style-position: outside;
+	float: left;
 }
 
 h5{
@@ -211,8 +231,8 @@ h5{
 
 li{
 	padding: 4px 5px;
-	list-style-position: outside 20px;
-	margin-left: 45px;
+	list-style-position: outside;
+	margin-left: 25px;
 	list-style-image: url(../img/viñeta.png);
 }
 
@@ -221,29 +241,17 @@ a{
 	color: black;
 }
 
-ul.ocultar{
-	display: none;
+ol{
+	text-align: justify;
+	margin: 15px 25px 10px 30px;
+	font-size: 15px;
+	font-family: angsana new;
+	list-style-position: outside;
 }
 
-.submenu:hover li.lista2{
-	display: block;
+iframe{
+	margin-left: 25px;
+	width: 380px;
+	height: 240px;
+	float: center;
 }
-/*
-.titulo {
-	margin: center-left;
-}
-
-.parrafo1 {
-	margin-left: 15px;
-	margin-top: 15px;
-}
-
-.parrafo2 {
-	margin-left: 15px;
-	margin-top: 15px;
-}
-
-.parrafo3 {
-	margin-left: 15px;
-	margin-top: 15px;
-}*/
