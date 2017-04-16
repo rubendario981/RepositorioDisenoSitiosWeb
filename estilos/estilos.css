@@ -33,7 +33,6 @@ main {
 	border: blue 4px solid;
 	margin: 8px 0px 8px 0px;
 	float: left;
-	background-color: transparent;
 	}
 
 aside {
@@ -42,7 +41,6 @@ aside {
 	float: left;
 	overflow: auto;
 	border-top-right-radius: 15px;
-	background-color: #FFFFFF;
 	}
 
 footer{
@@ -179,20 +177,12 @@ section{
 
 #lista2{
 	list-style-image: none;
-	margin-left: 50px;
+	margin-left: 20px;
 	font-family: angsana new;
 }
 
 #listanumerada{
 	list-style-image: none;
-}
-
-#datos{
-	text-align: left;
-	float: left;
-	width: 360px;
-	height: auto;
-	background-color: blue;
 }
 
 #imagenestudiante{
@@ -201,12 +191,26 @@ section{
 	height: 110px;
 }
 
-#widget{
-	margin-left: 0px;
-	margin-top: 25px;
-	float: left;
+#opciones{
+	margin: 0px;
 }
 
+#submenu{
+	list-style-image: none;
+	margin: 0px;
+	font-size: 12px;
+}
+
+.twitter-timeline{
+	margin-left: 10px;
+	width: 18px;
+	height: 320px;
+	border-radius: 10px;
+	border: rgb(15, 20, 10);
+	border-color: blue;
+	float: left;
+	margin-top: 20px;
+}
 
 h1{
 	text-align: center;
@@ -221,7 +225,13 @@ p{
 	margin: 10px 25px 10px 25px;
 	font-size: 15px;
 	font-family: angsana new;
-	list-style-position: outside;
+	float: left;
+}
+
+h4{
+	margin: 10px 25px 10px 25px;
+	font-size: 15px;
+	font-family: angsana new;
 	float: left;
 }
 
@@ -230,18 +240,24 @@ h5{
 }
 
 li{
-	padding: 4px 5px;
-	list-style-position: outside;
 	margin-left: 25px;
 	list-style-image: url(../img/viñeta.png);
+	list-style-position: inside;
 }
 
 a{
-	
 	color: black;
 }
 
 ol{
+	text-align: justify;
+	margin: 15px 25px 10px 30px;
+	font-size: 15px;
+	font-family: angsana new;
+	list-style-position: outside;
+}
+
+ul{
 	text-align: justify;
 	margin: 15px 25px 10px 30px;
 	font-size: 15px;
