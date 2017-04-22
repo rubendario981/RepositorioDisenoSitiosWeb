@@ -53,8 +53,70 @@ footer{
 	border-radius: 0px 0px 15px 15px;
 }
 
-section{
-	font-size: 20px;
+article{
+	width: 440px;
+	height: auto;
+	float: left;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	margin-left: 20px;
+}
+
+p{
+	text-align: justify;
+	margin: 10px 25px 10px 25px;
+	font-size: 15px;
+	font-family: angsana new;
+	float: left;
+}
+
+h4{
+	margin: 10px 25px 10px 25px;
+	font-size: 15px;
+	font-family: angsana new;
+}
+
+h5{
+	margin-left: 20px;
+}
+
+li{
+	margin-left: 15px;
+	list-style-image: url(../img/viñeta.png);
+	list-style-position: inside;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+ol{
+	text-align: justify;
+	margin: 15px 25px 10px 30px;
+	font-size: 15px;
+	font-family: angsana new;
+	list-style-position: outside;
+}
+
+ul{
+	text-align: justify;
+	margin: 15px 25px 10px 30px;
+	font-size: 15px;
+	font-family: angsana new;
+	list-style-position: outside;
+}
+
+iframe{
+	margin-left: 25px;
+	width: 380px;
+	height: 240px;
+	float: center;
 }
 
 #logoUnad {
@@ -87,13 +149,13 @@ section{
 	width: 190px;
 	height: 602px;
 	margin: 5px;
+	margin-left: 10px;
 	border: blue 4px solid;
+	padding-left: 10px;
 	padding-right: 20px;
 	padding-top: 60px;
 	float: left;
 	border-radius: 20px;
-	list-style-type: none;
-	list-style-image: none;
 }
 
 #intro {
@@ -105,8 +167,7 @@ section{
 	margin-bottom: 80px;
 	float: left;
 	border-radius: 20px;
-	padding-top: 40px;
-	
+	padding-top: 40px;	
 }
 
 #contador{
@@ -166,13 +227,24 @@ section{
 #autores{
 	width: 480px;
 	height: 622px;
-	margin: 5px 20px 0px 30px;
+	margin: 5px 20px 0px 20px;
 	border: blue 4px solid;
 	line-height: 25px;
 	margin-bottom: 80px;
 	float: left;
 	border-radius: 20px;
 	padding-top: 40px;
+}
+
+#datos{
+	margin-top: 20px;
+	margin-left: 40px;
+	width: 360px;
+	text-align: center;
+	height: auto;
+	float: left;
+	border: blue 2px solid;
+	margin-bottom: 10px;
 }
 
 #lista2{
@@ -186,88 +258,57 @@ section{
 }
 
 #imagenestudiante{
-	margin: 20px;
-	width: 140px;
-	height: 110px;
+	width: 220px;
+	height: 200px;
+	
 }
 
 #opciones{
 	margin: 0px;
 }
 
-#submenu{
-	list-style-image: none;
-	margin: 0px;
-	font-size: 12px;
+#lista3{
+	margin: 20px;
+}
+
+.submenu {
+	display: none;
+}
+
+.submenu:hover {
+	display: block;
+
+}
+
+#margenlista{
+	margin-left: -5px;
+	text-decoration: none;
+	color: blue;
+	background-color: blue;
 }
 
 .twitter-timeline{
-	margin-left: 10px;
-	width: 18px;
-	height: 320px;
+	margin-left: 0px;
 	border-radius: 10px;
-	border: rgb(15, 20, 10);
-	border-color: blue;
-	float: left;
-	margin-top: 20px;
-}
-
-h1{
-	text-align: center;
-}
-
-h2{
-	margin-left: 20px;
-}
-
-p{
-	text-align: justify;
-	margin: 10px 25px 10px 25px;
-	font-size: 15px;
-	font-family: angsana new;
 	float: left;
 }
 
-h4{
-	margin: 10px 25px 10px 25px;
-	font-size: 15px;
-	font-family: angsana new;
-	float: left;
+#widget{
+	margin-top: 25px;
+	width: 185px;
+	height: 350px;
+	border-radius: 10px;
+	border: blue 2px solid;
 }
 
-h5{
-	margin-left: 20px;
+.submenu >a{
+	margin-left: 5px;
+	padding: 10px;
 }
 
-li{
+#tamimagen{
+	width: 280px;
+	height: 310px;
 	margin-left: 25px;
-	list-style-image: url(../img/viñeta.png);
-	list-style-position: inside;
-}
-
-a{
-	color: black;
-}
-
-ol{
-	text-align: justify;
-	margin: 15px 25px 10px 30px;
-	font-size: 15px;
-	font-family: angsana new;
-	list-style-position: outside;
-}
-
-ul{
-	text-align: justify;
-	margin: 15px 25px 10px 30px;
-	font-size: 15px;
-	font-family: angsana new;
-	list-style-position: outside;
-}
-
-iframe{
-	margin-left: 25px;
-	width: 380px;
-	height: 240px;
-	float: center;
+	float: left;
 }
